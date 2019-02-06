@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Estrutura criada para teste com rails no modelo MVC.
 
-Things you may want to cover:
+inicialmente temos  um data.json  disponivel.
 
-* Ruby version
+Tente criar uma tabela simples  la no View mesmo mostrando estes dados odenados pela data.
 
-* System dependencies
 
-* Configuration
+Pra executar é so digitar o comando: rails server
 
-* Database creation
 
-* Database initialization
+mudei a pora pra escutar 3001. Porem pode mudar se achar necessario( la no puma.rb).
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
