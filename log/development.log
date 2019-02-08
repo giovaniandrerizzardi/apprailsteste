@@ -321,3 +321,254 @@ puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
 puma (3.12.0) lib/puma/server.rb:472:in `process_client'
 puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-07 17:02:37 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/giovani/.rvm/gems/ruby-2.5.1/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/giovani/.rvm/gems/ruby-2.5.1/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 21ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-07 17:02:43 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant DataProcess::Net):
+    11: 
+    12: 
+    13: <h2> aqui temos um teste de busca dos dados:</h2>
+    14:  <%= loadData %>
+  
+app/models/data_process.rb:9:in `getData'
+app/controllers/dashboard_controller.rb:11:in `loadData'
+app/views/dashboard/testeinicial.html.erb:14:in `_app_views_dashboard_testeinicial_html_erb__1411798677343571628_47138749328500'
+Started GET "/inicio" for 127.0.0.1 at 2019-02-07 17:04:06 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (50.6ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to localhost:8000 (Connection refused - connect(2) for "localhost" port 8000)):
+    11: 
+    12: 
+    13: <h2> aqui temos um teste de busca dos dados:</h2>
+    14:  <%= loadData %>
+  
+app/models/data_process.rb:9:in `getData'
+app/controllers/dashboard_controller.rb:11:in `loadData'
+app/views/dashboard/testeinicial.html.erb:14:in `_app_views_dashboard_testeinicial_html_erb__1411798677343571628_47138751002360'
+Started GET "/inicio" for 127.0.0.1 at 2019-02-07 17:04:07 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to localhost:8000 (Connection refused - connect(2) for "localhost" port 8000)):
+    11: 
+    12: 
+    13: <h2> aqui temos um teste de busca dos dados:</h2>
+    14:  <%= loadData %>
+  
+app/models/data_process.rb:9:in `getData'
+app/controllers/dashboard_controller.rb:11:in `loadData'
+app/views/dashboard/testeinicial.html.erb:14:in `_app_views_dashboard_testeinicial_html_erb__1411798677343571628_47138760538160'
+Started GET "/inicio" for 127.0.0.1 at 2019-02-07 17:04:38 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to localhost:8000 (Connection refused - connect(2) for "localhost" port 8000)):
+    11: 
+    12: 
+    13: <h2> aqui temos um teste de busca dos dados:</h2>
+    14:  <%= loadData %>
+  
+app/models/data_process.rb:9:in `getData'
+app/controllers/dashboard_controller.rb:11:in `loadData'
+app/views/dashboard/testeinicial.html.erb:14:in `_app_views_dashboard_testeinicial_html_erb__1411798677343571628_47138753351840'
+Started GET "/inicio" for 127.0.0.1 at 2019-02-07 17:04:40 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to localhost:8000 (Connection refused - connect(2) for "localhost" port 8000)):
+    11: 
+    12: 
+    13: <h2> aqui temos um teste de busca dos dados:</h2>
+    14:  <%= loadData %>
+  
+app/models/data_process.rb:9:in `getData'
+app/controllers/dashboard_controller.rb:11:in `loadData'
+app/views/dashboard/testeinicial.html.erb:14:in `_app_views_dashboard_testeinicial_html_erb__1411798677343571628_70196645020140'
+Started GET "/inicio" for 127.0.0.1 at 2019-02-07 17:04:55 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to localhost:8000 (Connection refused - connect(2) for "localhost" port 8000)):
+    11: 
+    12: 
+    13: <h2> aqui temos um teste de busca dos dados:</h2>
+    14:  <%= loadData %>
+  
+app/models/data_process.rb:9:in `getData'
+app/controllers/dashboard_controller.rb:11:in `loadData'
+app/views/dashboard/testeinicial.html.erb:14:in `_app_views_dashboard_testeinicial_html_erb__1411798677343571628_47138758703560'
+Started GET "/inicio" for 127.0.0.1 at 2019-02-07 17:04:56 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to localhost:8000 (Connection refused - connect(2) for "localhost" port 8000)):
+    11: 
+    12: 
+    13: <h2> aqui temos um teste de busca dos dados:</h2>
+    14:  <%= loadData %>
+  
+app/models/data_process.rb:9:in `getData'
+app/controllers/dashboard_controller.rb:11:in `loadData'
+app/views/dashboard/testeinicial.html.erb:14:in `_app_views_dashboard_testeinicial_html_erb__1411798677343571628_47138751361360'
+Started GET "/inicio" for 127.0.0.1 at 2019-02-07 17:06:09 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (55.1ms)
+Completed 200 OK in 374ms (Views: 371.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:37:13 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant DataProcess::Net):
+    11: 
+    12: 
+    13: <h2> aqui temos um teste de busca dos dados:</h2>
+    14:  <%= loadData %>
+  
+app/models/data_process.rb:9:in `getData'
+app/controllers/dashboard_controller.rb:11:in `loadData'
+app/views/dashboard/testeinicial.html.erb:14:in `_app_views_dashboard_testeinicial_html_erb__1727362486404341412_47274202479980'
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:37:22 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant DataProcess::Net):
+    11: 
+    12: 
+    13: <h2> aqui temos um teste de busca dos dados:</h2>
+    14:  <%= loadData %>
+  
+app/models/data_process.rb:9:in `getData'
+app/controllers/dashboard_controller.rb:11:in `loadData'
+app/views/dashboard/testeinicial.html.erb:14:in `_app_views_dashboard_testeinicial_html_erb__1727362486404341412_47274208419040'
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:38:00 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (174.5ms)
+Completed 200 OK in 456ms (Views: 455.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:39:16 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:39:59 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:40:00 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:41:37 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:43:23 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:43:24 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:45:56 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:46:05 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:46:07 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:47:04 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inicio" for 127.0.0.1 at 2019-02-08 14:47:21 -0200
+Processing by DashboardController#testeinicial as HTML
+  Rendering dashboard/testeinicial.html.erb within layouts/application
+  Rendered dashboard/testeinicial.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+

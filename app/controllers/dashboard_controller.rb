@@ -3,5 +3,12 @@ class DashboardController < ApplicationController
   #https://www.youtube.com/watch?v=DA4eA6qz62o&index=13&list=PLe3LRfCs4go-mkvHRMSXEOG-HDbzesyaP
   def testeinicial
   	@bolasAquaticas = "Lasanha congelada nao da. teste de variavel de instancia"
+
+  end
+ helper_method :loadData
+  def loadData
+  	obj = DataProcess.new
+  	@dataprocess = obj.getData
+  	@dataprocess = @dataprocess.body
   end
 end
